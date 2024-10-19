@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <div class="max-w-4xl mx-auto py-10 px-4">
+        <h1 class="text-4xl font-bold text-center text-indigo-600 mb-8">Hello, Welcome to My Demo</h1>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                I think that many of you may have questions about how to create a frontend & backend, 
+                add everything to a Docker container, and run it all together. So I am here to show 
+                you how to do it using a simple example.
+            </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                So I created a text area where we will show some text from the server.
+            </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Text from server:</h3>
+            
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+                <button id="btn" onclick="GetText()" class="px-4 py-2 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700 transition">
+                    Get Text
+                </button>
+                <textarea id="textarea" class="w-full p-4 rounded-md border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 transition"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="connect.js"></script>
+</body>
+</html>
