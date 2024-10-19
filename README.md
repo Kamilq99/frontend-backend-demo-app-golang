@@ -34,11 +34,3 @@ To run this project locally, you will need:
 
 - Installed **GO** (Golang) for the backend
 - A web browser that supports **HTML**, **JavaScript**, and **CSS** for the frontend
-
-## Installation
-
-To install and run the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourRepo/demo-api.git
